@@ -1,6 +1,14 @@
 "use strict";
 
-require("core-js/modules/es6.object.to-string");
+require("core-js/modules/es.array.concat");
+
+require("core-js/modules/es.array.filter");
+
+require("core-js/modules/es.array.index-of");
+
+require("core-js/modules/es.array.map");
+
+require("core-js/modules/es.array.splice");
 
 module.exports = function (port) {
   const fs = require('fs');

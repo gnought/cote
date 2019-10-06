@@ -1,5 +1,7 @@
 "use strict";
 
+require("core-js/modules/es.array.index-of");
+
 const Requester = require('./requester');
 
 const _ = require('lodash');

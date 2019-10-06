@@ -1,8 +1,14 @@
 "use strict";
 
-require("core-js/modules/es6.object.to-string");
+require("core-js/modules/es.array.filter");
 
-require("core-js/modules/es7.object.values");
+require("core-js/modules/es.array.iterator");
+
+require("core-js/modules/es.array.map");
+
+require("core-js/modules/es.array.splice");
+
+require("core-js/modules/es.object.values");
 
 const Configurable = require('./configurable');
 

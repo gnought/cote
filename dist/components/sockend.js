@@ -1,8 +1,12 @@
 "use strict";
 
-require("core-js/modules/es6.object.to-string");
+require("core-js/modules/es.array.iterator");
 
-require("core-js/modules/es6.set");
+require("core-js/modules/es.array.slice");
+
+require("core-js/modules/es.set");
+
+require("core-js/modules/es.string.split");
 
 const Subscriber = require('./subscriber');
 

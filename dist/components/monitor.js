@@ -1,10 +1,10 @@
 "use strict";
 
-require("core-js/modules/es7.object.get-own-property-descriptors");
+require("core-js/modules/es.array.filter");
 
-require("core-js/modules/es6.symbol");
+require("core-js/modules/es.array.slice");
 
-require("core-js/modules/es6.object.to-string");
+require("core-js/modules/es.object.get-own-property-descriptors");
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 

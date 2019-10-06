@@ -1,5 +1,9 @@
 "use strict";
 
+require("core-js/modules/es.array.map");
+
+require("core-js/modules/es.string.starts-with");
+
 const axon = require('@dashersw/axon');
 
 module.exports = Base => class Monitorable extends Base {

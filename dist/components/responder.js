@@ -1,5 +1,7 @@
 "use strict";
 
+require("core-js/modules/es.array.iterator");
+
 const axon = require('@dashersw/axon');
 
 const portfinder = require('portfinder');
